@@ -25,7 +25,7 @@ $(document).ready(function () {
     });
 
     var typed = new Typed(".typed", {
-        strings: ["Android Custom Rom Developer", "Frontend Developer", "Student"],
+        strings: ["Engineer","Custom Rom Developer", "Web Developer", "Learner"],
         typeSpeed: 50,
         loop: true,
         startDelay: 400,
@@ -111,5 +111,5 @@ $(document).ready(function () {
 });
 
 document.querySelector('#blog-link').addEventListener('click', () => {
-    window.location = 'https://www.vipuljha.com/blog';
+    window.location = '';
 })
